@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+     background-color:rgb(243, 221, 221);
+    /* width: 434px; */
+    font-family: 'Comme', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+
+}
+.sidebar nav{
+    padding: 25px;;
+}
+.sidebar nav li{
+    list-style: none;
+    font size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(23, 1, 1);
+}
+
+.main{
+    /* background-color: rgb(238, 98, 126); */
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+ /* background-color: rgb(134, 203, 29); */ 
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto ;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    font-family: 'Comme', sans-serif;
+}
+.hello{
+    font-size: 65px; 
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Comme', sans-serif;
+ 
+}
+
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Comme', sans-serif;
+
+
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding:9px 14px ;
+    border-radius: 22px;
+    color:whitesmoke ;
+    background-color:blue ;
+    font-weight:bold ;
+    font-size:21px ;
+    margin:0 3px ;
+    cursor: pointer;
+    }
+    .btn-sm{
+       font-size: 10px;
+       padding: 7px 13px;
+       margin: 10px 0;
+    }
+    .btn:hover{
+        background-color:white ;
+        color:rgb(58, 58, 142);
+        }
+
+
+
+.devpic img{
+    height: 78vh;
+
+}
+.contactform{
+    font-family: 'Comme', sans-serif;
+    padding: 0 34px;
+    padding-top: 144px ;
+    
+}
+.contactform h1{
+    font-family: 'Comme', sans-serif;
+    text-align: center;
+    
+}
+.contactform form div{
+    padding: 10px 0;
+    display:flex ;
+    flex-direction: column;
+   
+    
+}
+.contactform form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin:6px 0 0 0;
+   padding: 3px;
+   
+    
+}
+#emailHelp{
+    font-size:8px ;
+    color:red ;
+    margin:0 5px ;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Comme', sans-serif;
+
+}
+ h1{
+    font-family: 'Comme', sans-serif;
+    margin: 23px;
+}
+ p{
+    font-family: 'Comme', sans-serif;
+}
+.intro h2{
+    font-family: 'Comme', sans-serif;
+    margin: 13px;
+
+}
+.intro p{
+    font-family: 'Comme', sans-serif;
+    margin: 13px;
+
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.skillItem{
+    display:flex;
+    align-items: center;
+    font-family: 'Comme', sans-serif;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: rgb(178, 56, 56);
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: chartreuse;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+
+}
+.ham{
+    margin-top: 10px;
+}
+.cross{
+    margin-left: 100px;
+    margin: top 10px;;
+    
+}
+
+
+ /* @media(max-width: 1615px) {  */
+    /* { */
+        /* background-color: rgb(210, 87, 87); */
+    /* } */
+    /* .sidebar{  */
+        /* transform: translate(-443px, 0px); */
+        /* position: absolute; */
+    /* } */
+
+ 
